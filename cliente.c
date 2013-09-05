@@ -26,7 +26,7 @@ int main(){
     sock.sin_port=htons(1234);
 	printf("digite o ip do servidor:");
 	gets(ip);
-	
+
     sock.sin_addr.s_addr=inet_addr(ip);
     if(connect(winsock,(SOCKADDR*)&sock,sizeof(sock))==SOCKET_ERROR)
     {
@@ -34,6 +34,8 @@ int main(){
         return 0;
     }
     printf("Conectado!\n");
+
+
     while(1)
     {
         Sleep(1);
