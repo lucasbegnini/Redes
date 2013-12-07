@@ -1,13 +1,15 @@
-﻿Build started 07/12/2013 12:32:30.
+﻿Build started 07/12/2013 12:53:37.
      1>Project "C:\Users\Lucas Begnini\Documents\Estrutura de Dados\Trabalho2-1\Trabalho2-1\Trabalho2-1.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Grafo.cpp Lista.cpp main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Fila.cpp Grafo.cpp Lista.cpp main.cpp
          main.cpp
          Lista.cpp
          Grafo.cpp
+         Fila.cpp
          Gerando Código...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lucas Begnini\Documents\Estrutura de Dados\Trabalho2-1\Debug\Trabalho2-1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Lucas Begnini\Documents\Estrutura de Dados\Trabalho2-1\Debug\Trabalho2-1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Lucas Begnini\Documents\Estrutura de Dados\Trabalho2-1\Debug\Trabalho2-1.lib" /MACHINE:X86 Debug\Grafo.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lucas Begnini\Documents\Estrutura de Dados\Trabalho2-1\Debug\Trabalho2-1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Lucas Begnini\Documents\Estrutura de Dados\Trabalho2-1\Debug\Trabalho2-1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Lucas Begnini\Documents\Estrutura de Dados\Trabalho2-1\Debug\Trabalho2-1.lib" /MACHINE:X86 Debug\Fila.obj
+         Debug\Grafo.obj
          Debug\Lista.obj
          Debug\main.obj
          Trabalho2-1.vcxproj -> C:\Users\Lucas Begnini\Documents\Estrutura de Dados\Trabalho2-1\Debug\Trabalho2-1.exe
@@ -15,4 +17,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.61
+Time Elapsed 00:00:02.81

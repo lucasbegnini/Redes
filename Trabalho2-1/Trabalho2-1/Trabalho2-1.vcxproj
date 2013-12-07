@@ -12,10 +12,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arquivo.h" />
+    <ClInclude Include="Fila.h" />
     <ClInclude Include="Grafo.h" />
     <ClInclude Include="Lista.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Fila.cpp" />
     <ClCompile Include="Grafo.cpp" />
     <ClCompile Include="Lista.cpp" />
     <ClCompile Include="main.cpp" />

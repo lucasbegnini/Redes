@@ -1,6 +1,7 @@
 #include "Arquivo.h"
 #include "Lista.h"
 #include "Grafo.h"
+#include "Fila.h"
 #include <iostream>
 #include <stdlib.h>
 
@@ -19,13 +20,14 @@ int main(int argc, const char * argv[]) {
 	entrada.abrirArquivo("/topologia.txt");
 	
 
-	int MaxValue = entrada.SizeVet();
+	int maxvalue = entrada.SizeVet();
 	int vetor[300];
 	int origem, destino;
 
 	entrada.pegarMatriz(vetor, &origem, &destino);
-	grafo.setargrafo(vetor, MaxValue, &origem, &destino);
+	grafo.setargrafo(vetor, maxvalue, &origem, &destino);
 
+	
 
 
 	system("pause");
